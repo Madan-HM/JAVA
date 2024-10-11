@@ -5,15 +5,15 @@ class computer
         System.out.println("Music is playing");
 
     }
-    public String getmeapen(int abc)  //Method with string type and a return value
+    public String getmeapen(int cost)  //Method with string type and a return value
     {
-        if(abc <=9)
+        if(cost >= 10)
         {
-            return " pen is not on the table";
+            return " pen is  on the table";
         }
         else
         {
-             return " pen is on the table";
+             return " pen is NOT on the table";
         }
     }
 }
@@ -26,7 +26,7 @@ public class method
         computer obj = new computer();
         obj.playmusic();
 
-        String str = obj.getmeapen(10);
+        String str = obj.getmeapen(2);
         System.out.println(str);
 
     }
