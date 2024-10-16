@@ -4,7 +4,7 @@ public class code
     {
         StringBuffer sb = new StringBuffer("abc");
 
-      
+        System.out.println(sb.capacity());
 
         System.out.println(sb.length());
 
