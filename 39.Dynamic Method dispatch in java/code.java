@@ -35,7 +35,7 @@ public class code
         obj.show();     //reference in A and created the object of B
 
         obj=new C();    //no C in start because it is inherited
-        obj.show();     //reference in A and created the object of B
+        obj.show();     //reference in A and created the object of C
 
 
     }
